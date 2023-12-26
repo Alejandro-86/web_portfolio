@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-portfolio"
+version = "0.1.0"
+description = ""
+authors = ["Alex_alonso_86 <aalonsocanales@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_portfolio"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
